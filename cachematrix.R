@@ -5,7 +5,7 @@
 ##      1. Hereafter we cache computations that are normally expected to be time consuming, as is matrix inversion.
 ##      2. In such way that when we call for these results, they are already available without needing to be computed again. 
 
-## Write a short comment describing this function:
+## Write a short comment describing the first function:
 ##      1. Our first function is utilised to cache a matrix. 
 ##      2. One assumption is that the matrix is invertible. Therefore "inv = NULL"
 ##      3. We set a value for the matrix using the "set" function.
@@ -31,7 +31,7 @@ makeCacheMatrix <- function(x = matrix()){
 }
 
 
-## Write a short comment describing this function
+## Write a short comment describing the second function
 ##      1. Our "cacheSolve" function is utilised to compute the inverse of our cached matrix 
 ##      2. (Said cached matrix was previously created by our "makeCacheMatrix" function).
 ##      2. In case the inverse of our matrix has already been calculated and cached withour change, 
